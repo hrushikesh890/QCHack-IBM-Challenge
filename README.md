@@ -38,12 +38,31 @@ You are merchant who has entered the quantum country. Quantum country has many "
 3. If you cannot afford tax you are thrown out of the country.
 4. You can only have 500$ once you enter the quantum country.
 5. You become a quantum citizen if you reach 2500$.
-6. There can be only one new quantum citizen.
+6. There can be only one new quantum citizen, so if all other merchants drop out the last remaining merchant is automatically made quantum citizen.
 
 Some quantum "states" are good for trade and you can make a profit after paying taxes and trading. Some quantum states are not good for trade and you may lose money in these states. The way of travelling between these cities is unique, through gateays called as the *Measurement GateWays*. This gateway is unique as it connects to all other quantum states with a twist
 1. It will take you to any other quantum state with equal probability.
 2. It can return you to the same state.
 3. The measurement gate works only at a certain time of the day.
-Fortunately for you, since you paid taxes, you are given portal stones which can bias the measurement gate. These portal stones must be given to a public employee one at a time. the public employee can then fix these on your gateway, or if you have been sneaky and intructed him otherwise, on you fellow merchants gateway to sabotage his travel plans. The quantum country mandates that a certain number of gates be used to trigger the measurement gate.
+Fortunately for you, since you paid taxes, you are given portal stones which act of circuit of measurement gateway and can bias the measurement gateway. These portal stones must be given to a public employee one at a time. the public employee can then fix these on your gateway, or if you have been sneaky and intructed him otherwise, on you fellow merchants gateway to sabotage his travel plans. The quantum country mandates that a certain number of gates be used to trigger the measurement gate.
 
 Armed with this info, you are now ready to travel and become a quantum citizen.
+#### Rules
+1. Each player is allocated 500$ at the beginning
+2. Each player is dealt 8 different cards. Cards contain quantum operations of Paulis X, Y, Z and H. (More to be added soon!)
+3. Each card is refreshed when used.
+4. Players begin with their quantum states in equal superposition of all states.
+5. Players then take turns placing their quantum cards by specifying, 1. The card to be used, 2. Whose circuit to be applied on (your's or opponent's) 3. Qubit to be applied on
+6. After a fixed number of turns (8 in game however for demo purposes we may shorten it to 2) quantum measurement is triggered.
+7. Quantum measuremnt will transport you to different state and depending on the state's reward your wallet will be deducted or awarded an amount.
+8. If a player loses all the money, he/she is kicked out and the other player wins the game.
+9. If any player reaches 2500 then he/she wins the game.
+
+## Code Organization
+We have two files QuantumGame.py and QuantumGame.ipynb. To run the game simply go 
+'''
+python QuantumGame.py
+'''
+You can also the ipynb file with jupyter notebook and run the code.
+
+Please contact hrushikesh.patil@stonybrook.edu or yulun.wang@stonybrook.edu for further info
