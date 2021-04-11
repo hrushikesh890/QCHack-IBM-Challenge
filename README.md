@@ -60,9 +60,9 @@ Armed with this info, you are now ready to travel and become a quantum citizen.
 
 ## Code Organization
 We have two files QuantumGame.py and QuantumGame.ipynb. To run the game simply go 
-'''
+```
 python QuantumGame.py
-'''
+```
 You can also the ipynb file with jupyter notebook and run the code.
 
 Please contact hrushikesh.patil@stonybrook.edu or yulun.wang@stonybrook.edu for further info
